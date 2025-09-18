@@ -2,22 +2,22 @@
 
 A modern, responsive portfolio website showcasing my expertise in Financial Compliance Systems, Risk Analytics, and Enterprise-Grade Business Intelligence.
 
-## 🚀 Live Demo
+## Live Demo
 
 **Portfolio Website:** [https://kofijoo.github.io](https://kofijoo.github.io)
 
-## 👨‍💼 About
+## About
 
 Financial Compliance & Business Intelligence Analyst specializing in AML systems, sanctions screening, risk analytics, and enterprise-grade compliance solutions. Based in Oslo, Norway, with cross-cultural experience across Ghana, China, and Norway.
 
-## 🎯 Key Achievements
+## Key Achievements
 
 - **70%** Reduction in Manual Reporting
 - **25+** Variables Analyzed in Power BI
 - **80+** Airbnb Attributes Processed
 - **18K+** Sanctions Records Processed
 
-## 🛠️ Core Competencies
+## Core Competencies
 
 ### Business Intelligence
 - Power BI • Tableau • DAX • Data Modeling
@@ -31,7 +31,7 @@ Financial Compliance & Business Intelligence Analyst specializing in AML systems
 ### Risk Analytics & Compliance
 - AML Systems • Sanctions Screening • FastAPI • NLP
 
-## 📊 Featured Projects
+## Featured Projects
 
 ### 1. CRM Opportunity Tracker
 Full-stack sales enablement platform with AI-ready win-rate analysis and smart segmentation.
@@ -63,7 +63,7 @@ Dynamic dashboards with Power Pivot for software license cost optimization.
 - **Tech Stack:** Excel VBA, Power Pivot, Scenario Modeling
 - **Repository:** [Excel-Based-Forecasting-Dashboard](https://github.com/Kofijoo/Excel-Based-Forecasting-Dashboard)
 
-## 🎓 Education
+## Education
 
 - **MSc International Relations** - Norwegian University of Life Sciences (2022-2024)
 - **MSc Educational Technology** - Huzhou University, China (2019-2022)
