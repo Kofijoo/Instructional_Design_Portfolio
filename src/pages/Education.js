@@ -1,0 +1,51 @@
+import React from 'react';
+
+function Education() {
+  const education = [
+    {
+      degree: "M.Ed. Educational Technology",
+      institution: "Huzhou University, China",
+      period: "2019-2022",
+      description: "Focus on EdTech Development, Learning Management Systems, Content Creation & Authoring Tools, Data Analysis & Research Tools, Multimedia & Communication Tools"
+    },
+    {
+      degree: "MSc International Relations",
+      institution: "Norwegian University of Life Sciences (NMBU)",
+      period: "2022-2024",
+      grade: "Distinction",
+      description: "Advanced studies in international relations with focus on global education policy and cross-cultural communication"
+    },
+    {
+      degree: "B.Ed. Educational Technology",
+      institution: "University of Education, Ghana",
+      period: "2014-2018",
+      grade: "First Class Honours",
+      description: "Comprehensive training in educational technology, instructional design, and digital pedagogy"
+    }
+  ];
+
+  return (
+    <section className="page-section">
+      <div className="page-container">
+        <h1 className="page-title">Education</h1>
+        <p className="page-intro">
+          Academic foundation in educational technology, instructional design, and international relations.
+        </p>
+        
+        <div className="cards-grid">
+          {education.map((edu, index) => (
+            <div key={index} className="info-card">
+              <h3>{edu.degree}</h3>
+              <p className="card-institution">{edu.institution}</p>
+              <p className="card-period">{edu.period}</p>
+              {edu.grade && <p className="card-grade">{edu.grade}</p>}
+              {edu.description && <p className="card-description">{edu.description}</p>}
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export default Education;
