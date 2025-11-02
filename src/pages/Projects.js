@@ -5,8 +5,8 @@ function Projects() {
     title: "My Mission & Approach",
     subtitle: "Instructional Design Philosophy",
     description: "To design and deliver effective learning experiences at scale that drive measurable business results through innovative instructional design and technical excellence. I partner with organizations to analyze learning needs, design learner-centered and accessible content, and deliver exceptional learning experiences.",
-    thumbnail: "/images/about_me.png",
-    pdfLink: "/projects/Joshua Agyekum About Me.pdf"
+    thumbnail: `${process.env.PUBLIC_URL}/images/about_me.png`,
+    pdfLink: `${process.env.PUBLIC_URL}/projects/Joshua Agyekum About Me.pdf`
   };
 
   const projects = [
@@ -94,6 +94,10 @@ function Projects() {
               target="_blank" 
               rel="noopener noreferrer" 
               className="presentation-button"
+              onClick={(e) => {
+                e.preventDefault();
+                window.open(featuredPresentation.pdfLink, '_blank');
+              }}
             >
               View Presentation →
             </a>
