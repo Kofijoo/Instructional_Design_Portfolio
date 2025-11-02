@@ -1,6 +1,14 @@
 import React from 'react';
 
 function Projects() {
+  const featuredPresentation = {
+    title: "My Mission & Approach",
+    subtitle: "Instructional Design Philosophy",
+    description: "To design and deliver effective learning experiences at scale that drive measurable business results through innovative instructional design and technical excellence. I partner with organizations to analyze learning needs, design learner-centered and accessible content, and deliver exceptional learning experiences.",
+    thumbnail: "/images/about_me.png",
+    pdfLink: "/projects/Joshua Agyekum About Me.pdf"
+  };
+
   const projects = [
     {
       title: "Adaptive Learning System Development",
@@ -71,6 +79,28 @@ function Projects() {
         <p className="page-intro">
           Over my 5+ years in instructional design and educational technology, I've worked across various roles—from building adaptive learning systems to designing interactive STEM platforms and developing enterprise-grade compliance training.
         </p>
+
+        {/* Featured Presentation */}
+        <div className="featured-presentation">
+          <div className="presentation-thumbnail">
+            <img src={featuredPresentation.thumbnail} alt={featuredPresentation.title} />
+          </div>
+          <div className="presentation-content">
+            <h2>{featuredPresentation.title}</h2>
+            <p className="presentation-subtitle">{featuredPresentation.subtitle}</p>
+            <p className="presentation-description">{featuredPresentation.description}</p>
+            <a 
+              href={featuredPresentation.pdfLink} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="presentation-button"
+            >
+              View Presentation →
+            </a>
+          </div>
+        </div>
+
+        <h2 className="section-divider">Featured Projects</h2>
         <div className="projects-grid">
           {projects.map((project, index) => (
             <div key={index} className="project-card">
