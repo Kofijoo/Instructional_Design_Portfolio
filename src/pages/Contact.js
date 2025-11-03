@@ -41,6 +41,20 @@ function Contact() {
           </div>
           
           <div className="contact-card">
+            <h2>🏆 Credly</h2>
+            <a href="https://www.credly.com/users/joshua-agyekum.7b55a7d0/badges" target="_blank" rel="noopener noreferrer">
+              View Badges
+            </a>
+          </div>
+          
+          <div className="contact-card">
+            <h2>📊 W3Profile</h2>
+            <a href="https://www.w3profile.com/kofijoo/" target="_blank" rel="noopener noreferrer">
+              w3profile.com/kofijoo
+            </a>
+          </div>
+          
+          <div className="contact-card">
             <h2>🌐 Languages</h2>
             <p>English (Fluent)</p>
             <p>Norwegian (B1)</p>
