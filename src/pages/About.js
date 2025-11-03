@@ -25,6 +25,8 @@ function About() {
           <div className="social-links">
             <a href="https://www.linkedin.com/in/joshua-agyekum/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://github.com/Kofijoo" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.credly.com/users/joshua-agyekum.7b55a7d0/badges#credly" target="_blank" rel="noopener noreferrer">Credly</a>
+            <a href="https://www.w3profile.com/kofijoo/" target="_blank" rel="noopener noreferrer">W3Profile</a>
             <a href="mailto:joshuaagyekum21@gmail.com">Email</a>
           </div>
         </div>
