@@ -65,9 +65,32 @@ body {
   transition: color 0.3s ease;
 }
 
-.nav-links a:hover,
 .nav-links a.active {
   color: #2c3e50;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .nav-links a:hover {
+    color: #2c3e50;
+  }
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.menu-toggle span {
+  width: 25px;
+  height: 3px;
+  background: #2c3e50;
+  border-radius: 2px;
+  transition: all 0.3s ease;
 }
 
 /* About Hero */
@@ -692,13 +715,40 @@ body {
 /* Responsive Design */
 @media screen and (max-width: 968px) {
   .nav-container {
-    justify-content: center;
+    justify-content: space-between;
+  }
+  
+  .menu-toggle {
+    display: flex;
   }
   
   .nav-links {
-    gap: 1rem;
-    font-size: 0.85rem;
-    justify-content: center;
+    display: none;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-height: calc(100vh - 80px);
+    overflow-y: auto;
+  }
+  
+  .nav-links.open {
+    display: flex;
+  }
+  
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .nav-links a {
+    display: block;
+    padding: 1rem;
+    font-size: 1rem;
   }
   
   .about-hero {
@@ -745,9 +795,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .nav-links {
-    gap: 0.8rem;
-  }
   
   .about-hero {
     padding: 2rem 1.5rem;

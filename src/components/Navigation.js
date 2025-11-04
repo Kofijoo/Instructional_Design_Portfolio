@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
 function Navigation() {
   const location = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleLinkClick = () => setIsOpen(false);
 
   return (
     <nav className="main-nav">
@@ -10,16 +13,21 @@ function Navigation() {
         <Link to="/" className="nav-logo">
           <img src={`${process.env.PUBLIC_URL}/images/ja_logo.png`} alt="Joshua Agyekum" className="logo-img" />
         </Link>
-        <ul className="nav-links">
-          <li><Link to="/" className={location.pathname === '/' ? 'active' : ''}>About Me</Link></li>
-          <li><Link to="/projects" className={location.pathname === '/projects' ? 'active' : ''}>Projects</Link></li>
-          <li><Link to="/experience" className={location.pathname === '/experience' ? 'active' : ''}>Experience</Link></li>
-          <li><Link to="/toolkit" className={location.pathname === '/toolkit' ? 'active' : ''}>Toolkit</Link></li>
-          <li><Link to="/certifications" className={location.pathname === '/certifications' ? 'active' : ''}>Certifications</Link></li>
-          <li><Link to="/education" className={location.pathname === '/education' ? 'active' : ''}>Education</Link></li>
-          <li><Link to="/recommendations" className={location.pathname === '/recommendations' ? 'active' : ''}>Recommendations</Link></li>
-          <li><Link to="/articles" className={location.pathname === '/articles' ? 'active' : ''}>Articles</Link></li>
-          <li><Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>Contact</Link></li>
+        <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
+          <li><Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={handleLinkClick}>About Me</Link></li>
+          <li><Link to="/projects" className={location.pathname === '/projects' ? 'active' : ''} onClick={handleLinkClick}>Projects</Link></li>
+          <li><Link to="/experience" className={location.pathname === '/experience' ? 'active' : ''} onClick={handleLinkClick}>Experience</Link></li>
+          <li><Link to="/toolkit" className={location.pathname === '/toolkit' ? 'active' : ''} onClick={handleLinkClick}>Toolkit</Link></li>
+          <li><Link to="/certifications" className={location.pathname === '/certifications' ? 'active' : ''} onClick={handleLinkClick}>Certifications</Link></li>
+          <li><Link to="/education" className={location.pathname === '/education' ? 'active' : ''} onClick={handleLinkClick}>Education</Link></li>
+          <li><Link to="/recommendations" className={location.pathname === '/recommendations' ? 'active' : ''} onClick={handleLinkClick}>Recommendations</Link></li>
+          <li><Link to="/articles" className={location.pathname === '/articles' ? 'active' : ''} onClick={handleLinkClick}>Articles</Link></li>
+          <li><Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''} onClick={handleLinkClick}>Contact</Link></li>
         </ul>
       </div>
     </nav>
