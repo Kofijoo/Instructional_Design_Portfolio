@@ -9,27 +9,27 @@ function About() {
         <div className="about-photo">
           <img
             src={`${process.env.PUBLIC_URL}/images/profile_photo.png`}
-            alt="Joshua Agyekum - Learning & Development"
+            alt="Joshua Agyekum - Instructional Designer"
           />
         </div>
         <div className="about-content">
           <h1>Joshua Agyekum</h1>
-          <p className="subtitle">Learning & Development Specialist</p>
+          <p className="subtitle">Instructional Designer & E-Learning Developer</p>
 
           <p className="bio">
-            I’m a Learning & Development professional with 5+ years of experience designing programs that improve performance and drive measurable business results. From onboarding and enablement to tool adoption and systems training, I build learner-first solutions that are practical, scalable, and aligned to real workplace needs.
+            I design learning experiences that are interactive, standards-compliant, and built to last. With a First Class BSc and two Master's degrees in Educational Technology and International Relations, I bring both the theoretical grounding and the practical toolkit to create courses that actually work — from SCORM-compliant games to LMS-integrated platforms.
           </p>
 
           <p className="bio">
-            I thrive in cross-functional environments, partnering with Product, Marketing, Engineering, and Sales to ensure learning is not just informative, but impactful. In my current role at Tofflon Joy, I develop enablement experiences that strengthen product knowledge, consultative selling skills, and operational excellence across our machinery and turnkey solutions portfolio.
+            My work spans three continents. I've designed and delivered digital learning in Ghana, China, and Norway, adapting content for diverse learners across cultures and contexts. That international experience shapes how I think about accessibility, localization, and learner engagement.
           </p>
 
           <p className="bio">
-            Previously, at JOMACS I built adaptive learning systems that increased learner engagement by 40%. At Alo7, I developed interactive STEM learning experiences that boosted engagement by 75% using immersive 3D content and strong instructional structure.
+            I build things. Eco Explorers is a 6-level SCORM 1.2-compliant learning game with xAPI tracking. Quest of the Sky Coders is an AI-adaptive platform for young learners. EduAnalytics Pro uses machine learning to surface predictive insights from course data. These aren't mockups — they're deployed, working projects.
           </p>
 
           <p className="bio">
-            My approach is collaborative, data-informed, and performance-focused. I don’t just create content — I identify what people need to do, design learning that helps them do it, and measure whether it worked.
+            I'm based in Oslo with a permanent Norwegian residence permit and work authorization across the EEA. I'm fluent in English, proficient in Norwegian (B1), and certified in Mandarin (HSK 3) — an asset when working in multilingual or global teams.
           </p>
 
           <div className="social-links">
