@@ -63,7 +63,7 @@ function Projects() {
       title: "Learning Insights Dashboard",
       subtitle: "Tracking engagement and progress",
       description:
-        "A sample dashboard concept for understanding engagement and learning progress. Built to support decisions like where learners struggle, what’s improving, and where extra support may be needed.",
+        "A sample dashboard concept for understanding engagement and learning progress. Built to support decisions like where learners struggle, what's improving, and where extra support may be needed.",
       thumbnail: `${process.env.PUBLIC_URL}/images/EduAnalytics.png`,
       link: "https://eduanalytics-pro-garcy4kzhdd9nhuy3ffvgr.streamlit.app/"
     }
@@ -71,68 +71,68 @@ function Projects() {
 
   const projects = [
     {
-      title: "Personalized Learning Program",
-      organization: "JOMACS",
-      period: "Jun 2024 - Jun 2025",
+      title: "Eco Explorers — SCORM Learning Game",
+      organization: "Self-initiated portfolio project",
+      period: "2024",
       description:
-        "Built a learning experience that adjusted practice and support based on learner progress. The goal was to keep learners engaged and help facilitators understand where support was needed most.",
-      metrics: [
-        "Increased learner engagement by 40%",
-        "Reached an 85% completion rate",
-        "89% of learners reported improved understanding",
-        "Reduced facilitator support requests by 28%"
+        "Designed and built a 6-level interactive learning game compliant with SCORM 1.2 and xAPI. The goal was to create an experience that could slot into any LMS without modification while keeping young learners engaged through progression and immediate feedback.",
+      highlights: [
+        "Full SCORM 1.2 and xAPI implementation with completion tracking",
+        "6 progressive levels with branching feedback",
+        "Deployable in Moodle, Canvas, and other SCORM-compliant LMS platforms",
+        "Built with vanilla HTML5, CSS3, and JavaScript — no authoring tool dependency"
       ]
     },
     {
-      title: "Interactive STEM Learning Experience",
-      organization: "Alo7",
-      period: "Jan 2020 - Feb 2021",
+      title: "Legal Writing 101 — Scenario-Based Simulation",
+      organization: "Self-initiated portfolio project",
+      period: "2024–2025",
       description:
-        "Worked with subject experts to turn difficult concepts into engaging, visual learning experiences. Designed for clarity, interaction, and stronger learner confidence.",
-      metrics: [
-        "Boosted learner engagement by 75%",
-        "92% learner satisfaction",
-        "Reduced time to understand key concepts by 35%",
-        "Adopted across 12 schools (3,000+ learners)"
+        "Designed a scenario-based training experience that walks learners through realistic legal writing situations. Focused on decision-making practice rather than passive content consumption, with structured feedback at each choice point.",
+      highlights: [
+        "Scenario-based structure following the ADDIE model",
+        "Branching decisions with contextual feedback",
+        "Accessible design — readable on mobile and desktop",
+        "Demonstrates application of content to real-world situations"
       ]
     },
     {
-      title: "Foundational Skills Program (Phonics)",
+      title: "Quest of the Sky Coders — Adaptive Learning Platform",
+      organization: "Self-initiated portfolio project",
+      period: "2023–2024",
+      description:
+        "Built an adaptive learning game for learners aged 9–11 that adjusts difficulty and content based on performance. Designed multiple learning islands, each targeting a different skill, with real-time progress monitoring built in.",
+      highlights: [
+        "Adaptive difficulty based on learner responses",
+        "Multiple learning islands with distinct skill targets",
+        "Real-time progress monitoring for facilitators",
+        "Designed to run inside LMS platforms or standalone"
+      ]
+    },
+    {
+      title: "EduAnalytics Pro — Learning Analytics Dashboard",
+      organization: "Self-initiated portfolio project",
+      period: "2024–2025",
+      description:
+        "Built a machine learning–powered dashboard in Python/Streamlit for analysing course engagement and predicting learner drop-off. Designed to give L&D teams actionable data without needing a data analyst on the team.",
+      highlights: [
+        "Predictive analytics for learner drop-off risk",
+        "Engagement and completion visualisations",
+        "Built with Python, Streamlit, and Power BI concepts",
+        "Deployed as a live app — viewable by anyone without setup"
+      ]
+    },
+    {
+      title: "Phonics Learning Content — First Talk Education",
       organization: "First Talk Education",
-      period: "Mar 2021 - Apr 2022",
+      period: "Mar 2021 – Apr 2022",
       description:
-        "Supported a digital learning approach that made practice consistent and easier for teachers and learners. Focused on simple learner journeys and clear reinforcement activities.",
-      metrics: [
-        "Improved phonics recognition by 45%",
-        "94% parent satisfaction",
-        "Reduced teacher preparation time by 60%",
-        "78% of learners reached proficiency early"
-      ]
-    },
-    {
-      title: "Sales & Product Enablement Program",
-      organization: "Tofflon Joy",
-      period: "Jul 2025 - Present",
-      description:
-        "Designed an enablement program for sales and technical teams to build product confidence, strengthen customer conversations, and improve consistency in how solutions are presented.",
-      metrics: [
-        "Designed 15+ learning modules and support resources",
-        "88% completion rate in the first quarter",
-        "82% reported increased confidence",
-        "Recognized internally for strong cross-team collaboration"
-      ]
-    },
-    {
-      title: "LMS-Ready Learning Activities (Interactive Practice)",
-      organization: "Multiple Projects",
-      period: "2020 - Present",
-      description:
-        "Built interactive learning activities that can be delivered through an LMS when needed. Focused on accessibility, ease of use, and clear learner feedback.",
-      metrics: [
-        "Deployed successfully across multiple LMS environments",
-        "High learner engagement (91%) across pilots",
-        "Reliable delivery across cohorts",
-        "Reduced development effort by 40% through reusable patterns"
+        "As part of an ESL teaching role, designed and built digital learning content supporting the Jolly Phonics methodology. Created an interactive HTML/CSS/JavaScript game to reinforce phonics skills — deployable inside the school's LMS.",
+      highlights: [
+        "Interactive 6-level phonics game in HTML/CSS/JavaScript",
+        "Runs inside LMS or as a standalone web app",
+        "Designed for young learners — simple navigation, clear feedback",
+        "Supplemented classroom instruction with self-paced digital practice"
       ]
     }
   ];
@@ -143,10 +143,10 @@ function Projects() {
       <div className="page-container">
         <h1 className="page-title">Programs & Work Samples</h1>
         <p className="page-intro">
-          A selection of learning programs, enablement experiences, and digital training samples I’ve built to support performance, engagement, and real-world application.
+          A selection of learning programs, enablement experiences, and digital training samples built to support
+          engagement, skills practice, and real-world application.
         </p>
 
-        {/* Featured Learning Samples */}
         {featuredPresentations.map((presentation, index) => (
           <div key={index} className="featured-presentation">
             <div className="presentation-thumbnail">
@@ -176,10 +176,10 @@ function Projects() {
               <p className="project-meta">{project.organization} | {project.period}</p>
               <p className="project-description">{project.description}</p>
               <div className="project-metrics">
-                <h3>Outcomes:</h3>
+                <h3>What I built / delivered:</h3>
                 <ul>
-                  {project.metrics.map((metric, i) => (
-                    <li key={i}>{metric}</li>
+                  {project.highlights.map((highlight, i) => (
+                    <li key={i}>{highlight}</li>
                   ))}
                 </ul>
               </div>
