@@ -89,5 +89,13 @@ function Contact() {
     </section>
   );
 }
+// Add this just before the closing </div> of the page-container in Experience.js
+<div className="section-block" style={{ marginTop: '3rem' }}>
+  <h2 className="section-divider">References</h2>
+  <p className="page-intro">
+    Professional and academic references are available upon request — covering roles in Norway,
+    Ghana, and China across educational, supervisory, and operational contexts.
+  </p>
+</div>
 
 export default Contact;
