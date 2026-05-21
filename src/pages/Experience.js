@@ -4,159 +4,111 @@ import AnimatedBackground from '../components/AnimatedBackground';
 function Experience() {
   const alignmentHighlights = [
     {
-      title: "Leadership development support",
+      title: "Learner-centered design",
       description:
-        "I support leadership learning through structured activities, practical tools, and facilitation-friendly resources that help leaders apply skills on the job."
+        "I design with the learner's context in mind — clear language, accessible structure, and content that respects different backgrounds, roles, and learning needs."
     },
     {
-      title: "Inclusion-first learning",
+      title: "Interactive content development",
       description:
-        "I design learning with belonging in mind—clear language, accessible experiences, and an approach that respects different backgrounds, roles, and learning needs."
+        "I build SCORM-compliant courses, educational games, and LMS-integrated experiences using Articulate Storyline, Adobe Captivate, and custom HTML5/JavaScript."
     },
     {
       title: "Change enablement",
       description:
-        "I create learning interventions that help teams adopt new tools, processes, and ways of working—reducing confusion and improving confidence during change."
+        "I create learning interventions that help people adopt new tools, processes, and ways of working — reducing confusion and building confidence during transitions."
     },
     {
-      title: "Digital learning + learner experience",
+      title: "Data-informed improvement",
       description:
-        "I build and improve digital learning experiences with a focus on usability, engagement, and practical measurement (completion, feedback, and performance signals)."
+        "I use xAPI tracking, LMS analytics, and tools like Power BI to measure what's working and iterate. Learning that can't be measured can't be improved."
     },
     {
-      title: "Stakeholder partnership",
+      title: "Cross-cultural facilitation",
       description:
-        "I work closely with leaders and cross-functional teams to clarify needs, align on outcomes, and deliver learning that supports business priorities."
+        "I've designed and delivered learning across Ghana, China, and Norway. I adapt tone, format, and context for different audiences — including multilingual and international teams."
     }
   ];
 
   const experiences = [
     {
-      title: "Learning & Development Specialist (Enablement)",
-      company: "Tofflon Joy",
-      period: "Jul 2025 – Present",
-      location: "Greater Accra Region, Ghana · Remote",
-      description:
-        "Support learning and enablement for sales and technical teams in industrial manufacturing. Partner with stakeholders to build practical learning journeys that strengthen product knowledge, customer conversations, and operational excellence.",
-      skills: [
-        "Learning program design",
-        "Stakeholder partnership",
-        "Enablement (sales/technical)",
-        "Facilitation support",
-        "Performance-focused learning",
-        "Continuous improvement"
-      ]
-    },
-    {
-      title: "Learning Systems & Operations Support",
-      company: "JOMACS",
-      period: "Oct 2024 – Jun 2025",
-      location: "Alberta, Canada · Remote",
-      description:
-        "Supported the delivery and reliability of digital learning programs by improving the learning platform setup and release process. Focused on creating a smoother learner experience and reducing friction for facilitators and admins.",
-      skills: [
-        "Digital learning operations",
-        "LMS support mindset",
-        "Process improvement",
-        "Learner experience",
-        "Cross-team collaboration",
-        "Problem solving"
-      ]
-    },
-    {
-      title: "Learning Experience Designer",
-      company: "JOMACS",
-      period: "Jun 2024 – Sep 2024",
-      location: "Canada · Remote",
-      description:
-        "Designed learning experiences that increased learner engagement by 40%. Built structured practice and feedback into the learning journey and collaborated with internal partners to improve clarity, flow, and learner confidence.",
-      skills: [
-        "Learning design",
-        "Needs analysis",
-        "Assessment & practice design",
-        "Storyboarding",
-        "Learning evaluation mindset",
-        "Visual communication"
-      ]
-    },
-    {
-      title: "Learning Support & Content Development (Intern)",
+      title: "ESL Teacher & Digital Content Developer",
       company: "First Talk Education",
       period: "Mar 2021 – Apr 2022",
       location: "Changxing County, Zhejiang, China · Hybrid",
       description:
-        "Supported the rollout of a foundational skills program by creating learner-friendly content and practice activities. Helped make learning consistent, engaging, and accessible for diverse learner needs.",
+        "Delivered English language instruction using the Jolly Phonics methodology and designed supporting digital learning content for young learners. Built an interactive 6-level educational game in HTML/CSS/JavaScript that ran on both open web and inside LMS platforms.",
       skills: [
         "Content development",
-        "Facilitation support",
         "Learner engagement",
-        "Inclusive learning mindset",
-        "Learning materials design",
-        "Collaboration"
+        "HTML/CSS/JavaScript",
+        "LMS integration",
+        "Phonics-based instruction",
+        "Learning materials design"
       ]
     },
     {
-      title: "STEM Learning Experience Designer",
+      title: "ESL Teacher & STEM Learning Contributor",
       company: "Alo7",
       period: "Jan 2020 – Feb 2021",
       location: "Ningbo, Zhejiang, China · Hybrid",
       description:
-        "Worked with subject experts to create interactive STEM learning experiences that improved learner engagement by 75%. Focused on simplifying difficult concepts and building confidence through practice and interaction.",
+        "Delivered live online English and STEM lessons via virtual classroom platforms to young learners. Contributed to the development of interactive STEM learning modules and the Little Explorers educational platform alongside the instructional design team.",
       skills: [
-        "Learning experience design",
-        "SME collaboration",
-        "Engagement-focused learning",
-        "Learning by doing",
+        "Live online facilitation",
+        "STEM learning design",
+        "Virtual classroom platforms",
+        "Interactive content",
         "Digital learning",
-        "Clear communication"
+        "Learner-centered delivery"
       ]
     },
     {
-      title: "Creative Learning Facilitator",
+      title: "Visual Arts Tutor",
       company: "Brainhill International School",
-      period: "2018 – 2019",
-      location: "Ghana",
+      period: "Aug 2018 – Oct 2019",
+      location: "East Legon, Accra, Ghana · On-site",
       description:
-        "Facilitated creative, project-based learning for primary learners. Designed sessions that encouraged participation, built confidence, and supported skill development through hands-on activities.",
+        "Taught creative design principles and visual arts to primary pupils through project-based learning. Developed lesson plans that integrated art fundamentals with digital design concepts. Awarded Best Teacher (Q2 2019).",
       skills: [
         "Facilitation",
-        "Learner-centered delivery",
-        "Session planning",
-        "Feedback & coaching",
-        "Engagement strategies",
-        "Learning support"
+        "Project-based learning",
+        "Lesson planning",
+        "Creative instruction",
+        "Learner engagement",
+        "Visual communication"
       ]
     },
     {
-      title: "Instructional Support",
+      title: "Instructional Support Specialist",
       company: "Kaneshie Awudome JHS",
-      period: "2018 – 2019",
-      location: "Ghana",
+      period: "Sep 2018 – Oct 2019",
+      location: "Accra, Ghana · On-site",
       description:
-        "Supported classroom learning and learner progress through resource development and day-to-day learning support. Assisted with materials that made lessons easier to follow and more engaging.",
+        "Supported classroom instruction and learning design activities. Assisted in developing visual learning materials and managing educational resources to improve learner engagement and lesson clarity.",
       skills: [
         "Learning support",
         "Resource development",
         "Learner engagement",
+        "Classroom collaboration",
         "Communication",
-        "Collaboration",
         "Organization"
       ]
     },
     {
-      title: "Learning Facilitator (STEM / Primary)",
+      title: "Creative Learning Facilitator",
       company: "Global Access Academy",
-      period: "2013 – 2014",
-      location: "Ghana",
+      period: "Oct 2013 – Nov 2014",
+      location: "Accra, Ghana · On-site",
       description:
-        "Facilitated STEM learning activities using creative approaches that made concepts easier to understand. Focused on participation, confidence-building, and practical application for young learners.",
+        "Facilitated STEM learning for primary students using creative and visual teaching approaches. Designed activities that combined mathematical concepts with artistic expression to build engagement and confidence.",
       skills: [
         "Facilitation",
-        "Learning activities",
+        "STEM learning activities",
         "Creative instruction",
         "Learner motivation",
         "Inclusive approach",
-        "Communication"
+        "Session planning"
       ]
     }
   ];
@@ -167,16 +119,15 @@ function Experience() {
       <div className="page-container">
         <h1 className="page-title">Experience</h1>
         <p className="page-intro">
-          Roles focused on Learning & Development, enablement, facilitation support, and improving learner experience across
-          both digital and in-person environments.
+          Roles spanning instructional design, digital content development, and learning facilitation across
+          Ghana, China, and Norway — with a consistent focus on learner engagement and practical outcomes.
         </p>
 
-        {/* TOMRA Alignment Block */}
         <div className="section-block">
-          <h2 className="section-divider">How I align with global L&D roles</h2>
+          <h2 className="section-divider">What I bring to L&D roles</h2>
           <p className="page-intro" style={{ marginTop: 0 }}>
-            The themes below reflect the kind of work I enjoy most—leadership development support, inclusive learning,
-            change enablement, digital learning journeys, and strong stakeholder partnership.
+            The themes below reflect where I do my best work — learner-centered design, interactive content,
+            change enablement, analytics-driven improvement, and cross-cultural facilitation.
           </p>
 
           <div className="projects-grid">
@@ -189,7 +140,6 @@ function Experience() {
           </div>
         </div>
 
-        {/* Timeline */}
         <div className="timeline">
           {experiences.map((exp, index) => (
             <div key={index} className="timeline-item">
