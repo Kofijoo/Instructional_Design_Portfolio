@@ -31,7 +31,23 @@ function Experience() {
   ];
 
   const experiences = [
-    {
+{
+  title: "Substitute Kindergarten Assistant (Assistent)",
+  company: "Brobyggere",
+  period: "Jul 2025 – Dec 2025",
+  location: "Oslo, Norway · On-site",
+  description:
+    "Supported children aged 0–6 with daily routines, play-based learning, care, and outdoor activities in a Norwegian barnehage setting. Worked in a fully Norwegian-language team alongside qualified pedagogues, serving families from diverse cultural backgrounds. Applied Assistentprøven training in a live practice environment.",
+  skills: [
+    "Norwegian language (professional context)",
+    "Play-based learning",
+    "Child development support",
+    "Cross-cultural communication",
+    "Team collaboration",
+    "Inclusive practice"
+  ]
+},
+{
       title: "ESL Teacher & Digital Content Developer",
       company: "First Talk Education",
       period: "Mar 2021 – Apr 2022",
