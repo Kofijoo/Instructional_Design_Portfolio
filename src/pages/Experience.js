@@ -34,7 +34,7 @@ function Experience() {
 {
   title: "Substitute Kindergarten Assistant (Assistent)",
   company: "Brobyggere",
-  period: "Jul 2025 – Dec 2025",
+  period: "Jun 2025 – Mar 2026",
   location: "Oslo, Norway · On-site",
   description:
     "Supported children aged 0–6 with daily routines, play-based learning, care, and outdoor activities in a Norwegian barnehage setting. Worked in a fully Norwegian-language team alongside qualified pedagogues, serving families from diverse cultural backgrounds. Applied Assistentprøven training in a live practice environment.",
@@ -48,6 +48,22 @@ function Experience() {
   ]
 },
 {
+      title: "Grocery Associate",
+      company: "Wolt",
+      period: "Jul 2024 – Present",
+      location: "Oslo, Norway · On-site · Part-time",
+      description:
+        "Part-time role supporting daily grocery operations at Wolt in Oslo, running alongside my instructional design portfolio and development work. Responsibilities include inventory management, order fulfilment, quality control, and customer service in a fast-paced Norwegian retail environment.",
+      skills: [
+        "Norwegian language (daily operations)",
+        "Inventory management",
+        "Order fulfilment",
+        "Quality control",
+        "Customer service",
+        "Team collaboration"
+      ]
+    },
+    {
       title: "ESL Teacher & Digital Content Developer",
       company: "First Talk Education",
       period: "Mar 2021 – Apr 2022",
