@@ -4,14 +4,6 @@ import AnimatedBackground from '../components/AnimatedBackground';
 function Projects() {
   const featuredPresentations = [
     {
-      title: "My L&D Approach",
-      subtitle: "How I support learning and performance",
-      description:
-        "My approach to Learning & Development is people-centered and business-aligned. I partner with stakeholders to understand what success looks like, design practical learning journeys, and improve them using feedback and simple measurement.",
-      thumbnail: `${process.env.PUBLIC_URL}/images/about_me.png`,
-      link: "https://drive.google.com/file/d/1nYpSAgVi1EGzBbEkc5NXgHoWfe0m-czX/view?usp=drive_link"
-    },
-    {
       title: "How I Design Learning",
       subtitle: "From needs to rollout",
       description:
@@ -141,10 +133,10 @@ function Projects() {
     <section className="page-section">
       <AnimatedBackground />
       <div className="page-container">
-        <h1 className="page-title">Programs & Work Samples</h1>
+        <h1 className="page-title">Work Samples and Projects</h1>
         <p className="page-intro">
-          A selection of learning programs, enablement experiences, and digital training samples built to support
-          engagement, skills practice, and real-world application.
+          A selection of deployed learning tools: SCORM-compliant games, AI-adaptive platforms, interactive training
+          simulations, and learning analytics dashboards. These are working projects, not mockups.
         </p>
 
         {featuredPresentations.map((presentation, index) => (
