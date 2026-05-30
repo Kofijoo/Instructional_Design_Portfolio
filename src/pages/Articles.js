@@ -4,27 +4,24 @@ import AnimatedBackground from '../components/AnimatedBackground';
 function Articles() {
   const publications = [
     {
-      title: "Natural Science & Real Life Learning",
+      title: "Rationale of the Essence of Innovative STEAM Education Model towards Effective Teaching Practices",
       journal: "International Journal of Management Sciences and Business Research (IJMSBR)",
-      year: "2023",
-      role: "Lead Author",
-      focus: "Explores how real-life context improves understanding and retention.",
-      link: "https://www.ijmsbr.com/publications-of-ijmsbr/article/1737/#abstract"
-    },
-    {
-      title: "STEAM Education Model",
-      journal: "International Journal of Management Sciences and Business Research (IJMSBR)",
-      year: "2023",
-      role: "Sole Author",
-      focus: "Examines integrated learning models that support problem-solving and applied skills.",
+      year: "April 2021, Volume 10, Issue 4",
+      authors: "Joshua Agyekum",
       link: "https://www.ijmsbr.com/publications-of-ijmsbr/article/1728/#abstract"
     },
     {
-      title: "Classroom Management & Student Well-being",
+      title: "Research on the Influence of Linking Natural Science Conceptions to Real Life Situations to Basic School Students in Winneba; A Case of Central Region of Ghana",
       journal: "International Journal of Management Sciences and Business Research (IJMSBR)",
-      year: "2023",
-      role: "Co-Author",
-      focus: "Looks at learning environments that support engagement, safety, and well-being.",
+      year: "April 2021, Volume 10, Issue 4",
+      authors: "Joshua Agyekum and Bonah Emmanuel Obeng",
+      link: "https://www.ijmsbr.com/publications-of-ijmsbr/article/1737/#abstract"
+    },
+    {
+      title: "Impact of Efficiency of Classroom Management on Reducing High School Students Level of Stress in the Kumasi Metropolis in Ghana",
+      journal: "International Journal of Management Sciences and Business Research (IJMSBR)",
+      year: "February 2021, Volume 10, Issue 2",
+      authors: "Bonah Emmanuel Obeng, Wang Yanhong, and Joshua Agyekum",
       link: "https://www.ijmsbr.com/publications-of-ijmsbr/article/1680/#abstract"
     }
   ];
@@ -35,7 +32,8 @@ function Articles() {
       <div className="page-container">
         <h1 className="page-title">Articles & Insights</h1>
         <p className="page-intro">
-          Selected publications and written insights focused on learning, engagement, and real-world application.
+          Peer-reviewed research published while at Huzhou University, China. All three articles appear in the
+          International Journal of Management Sciences and Business Research (ISSN 2226-8235).
         </p>
 
         <div className="section-block">
@@ -43,10 +41,9 @@ function Articles() {
             {publications.map((pub, index) => (
               <div key={index} className="article-card">
                 <h2>{pub.title}</h2>
-                <p className="article-excerpt">{pub.focus}</p>
                 <p className="article-date">{pub.journal} | {pub.year}</p>
                 <p className="article-excerpt">
-                  <strong>Contribution:</strong> {pub.role}
+                  <strong>Authors:</strong> {pub.authors}
                 </p>
                 <a href={pub.link} target="_blank" rel="noopener noreferrer" className="article-link">
                   Read Publication →
