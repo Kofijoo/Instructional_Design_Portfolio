@@ -8,9 +8,9 @@ function Contact() {
       <div className="page-container">
         <h1 className="page-title">Let’s Connect</h1>
         <p className="page-intro">
-          If you’re looking for L&D support — leadership development, enablement, learning journeys, facilitation, or change
-          learning — I’d love to connect. I’m happy to share work samples, walk through case studies, or discuss how I can
-          support your team’s goals.
+          Whether you are looking for an instructional designer, an e-learning developer, or someone who can design and deliver
+          education programmes for an international or NGO context, I would be glad to connect. I am based in Oslo and open to
+          roles across Norway and the Nordic region, as well as remote international opportunities.
         </p>
 
         <div className="contact-grid">
@@ -89,13 +89,5 @@ function Contact() {
     </section>
   );
 }
-// Add this just before the closing </div> of the page-container in Experience.js
-<div className="section-block" style={{ marginTop: '3rem' }}>
-  <h2 className="section-divider">References</h2>
-  <p className="page-intro">
-    Professional and academic references are available upon request — covering roles in Norway,
-    Ghana, and China across educational, supervisory, and operational contexts.
-  </p>
-</div>
 
 export default Contact;
