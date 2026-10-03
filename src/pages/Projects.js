@@ -58,6 +58,14 @@ function Projects() {
         "A sample dashboard concept for understanding engagement and learning progress. Built to support decisions like where learners struggle, what's improving, and where extra support may be needed.",
       thumbnail: `${process.env.PUBLIC_URL}/images/EduAnalytics.png`,
       link: "https://eduanalytics-pro-garcy4kzhdd9nhuy3ffvgr.streamlit.app/"
+    },
+    {
+      title: "Shift Worker Onboarding",
+      subtitle: "Mobile-first interactive training platform",
+      description:
+        "A production-grade onboarding platform helping new shift workers navigate mandatory HR tasks in Workday. Built with React 18 and Vite with WCAG 2.1 AA accessibility. Eight interactive modules covering audience analysis, design frameworks (ADDIE/SAM/LEC), course structure, and analytics. Features persistent progress, full keyboard navigation, and automated CI/CD deployment.",
+      thumbnail: `${process.env.PUBLIC_URL}/images/shift_worker_onboarding.png`,
+      link: "https://github.com/Kofijoo/shift-worker-onboarding"
     }
   ];
 
