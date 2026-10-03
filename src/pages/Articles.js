@@ -41,12 +41,12 @@ function Articles() {
             {publications.map((pub, index) => (
               <div key={index} className="article-card">
                 <h2>{pub.title}</h2>
-                <p className="article-date">{pub.journal} | {pub.year}</p>
+                <p className="article-date">{pub.journal}, {pub.year}</p>
                 <p className="article-excerpt">
                   <strong>Authors:</strong> {pub.authors}
                 </p>
                 <a href={pub.link} target="_blank" rel="noopener noreferrer" className="article-link">
-                  Read Publication →
+                  Read Publication
                 </a>
               </div>
             ))}

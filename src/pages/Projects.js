@@ -162,7 +162,7 @@ function Projects() {
                 rel="noopener noreferrer"
                 className="presentation-button"
               >
-                View Sample →
+                View Sample
               </a>
             </div>
           </div>
@@ -173,7 +173,7 @@ function Projects() {
           {projects.map((project, index) => (
             <div key={index} className="project-card">
               <h2>{project.title}</h2>
-              <p className="project-meta">{project.organization} | {project.period}</p>
+              <p className="project-meta">{project.organization}, {project.period}</p>
               <p className="project-description">{project.description}</p>
               <div className="project-metrics">
                 <h3>What I built / delivered:</h3>

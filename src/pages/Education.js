@@ -7,7 +7,6 @@ function Education() {
       degree: "Master of Science (International Relations)",
       institution: "Norwegian University of Life Sciences (NMBU), Norway",
       period: "2022–2024",
-      grade: "Distinction",
       highlights: [
         "Thesis: Children's Rights to a Voice and Participation in Primary Education Decision-Making in Ghana (30 ECTS)",
         "Coursework: International Organizations, Research Methods, Global Political Economy, Climate Change and Society, Development Thinking",

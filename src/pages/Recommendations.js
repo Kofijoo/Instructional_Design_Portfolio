@@ -4,29 +4,13 @@ import AnimatedBackground from '../components/AnimatedBackground';
 function Recommendations() {
   const [selectedDoc, setSelectedDoc] = useState(null);
 
-  const recommendations = [
-    {
-      name: "Dr. Sarah Chen",
-      title: "Director of Learning & Development",
-      company: "JOMACS Tech Academy",
-      text:
-        "Joshua strengthened our learning programs in a meaningful way. His work on a personalized learning experience contributed to a 40% increase in learner engagement and an 85% course completion rate. He brings a thoughtful, learner-centered approach and partners well with stakeholders to deliver practical outcomes."
-    },
-    {
-      name: "Michael Zhang",
-      title: "Head of Educational Technology",
-      company: "Alo7 Education",
-      text:
-        "Working with Joshua on our STEM learning experience was excellent. His work helped boost learner engagement by 75% and supported delivery to over 3,000 learners across 12 schools. He combines creativity with a strong understanding of how to design digital learning that keeps people engaged and supports real understanding."
-    }
-  ];
+  const recommendations = [];
 
   // Keep this list focused on identity/education/language documents that employers may ask to verify.
   const officialDocs = [
     { name: "Norwegian Language Proficiency (B1)", image: "Norwegian Language Proficiency.jpg" },
     { name: "English Language Proficiency", image: "English Language Proficiency.jpg" },
     { name: "Mandarin Language Proficiency", image: "Mandarin Language Proficiency.jpg" },
-    { name: "HK-dir Recognition / Qualification Document", image: "HK-dir decision.jpg" }, // rename image if needed
     { name: "TEFL Certificate (120 hours)", image: "TEFL Certification.jpg" },
     { name: "National Teaching Certificate (Ghana)", image: "National Teaching Certificate.jpg" },
     { name: "Bachelor’s Degree", image: "Bachelor's Degree.jpg" },
@@ -45,18 +29,10 @@ function Recommendations() {
 
         <div className="section-block">
           <h2 className="section-heading">Professional Recommendations</h2>
-          <div className="recommendations-grid">
-            {recommendations.map((rec, index) => (
-              <div key={index} className="recommendation-card">
-                <p className="recommendation-text">"{rec.text}"</p>
-                <div className="recommendation-author">
-                  <h3>{rec.name}</h3>
-                  <p>{rec.title}</p>
-                  <p className="company">{rec.company}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+          <p className="page-intro" style={{ marginTop: '0.5rem', textAlign: 'left' }}>
+            Written recommendations are being collected from colleagues and supervisors. Professional references
+            are available upon request. Please reach out via email or LinkedIn.
+          </p>
         </div>
 
         <div className="section-block" style={{ marginTop: '4rem' }}>
