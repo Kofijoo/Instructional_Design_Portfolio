@@ -18,7 +18,7 @@ function About() {
 
           <p className="bio">
             I design learning experiences that are interactive, standards-compliant, and built to last.
-            With a B.Ed. in Early Childhood Education and two Master's degrees — in Educational Technology
+            With a B.Ed. in Education and two Master's degrees — in Educational Technology
             and International Relations — I bring both the theoretical grounding and the practical toolkit
             to create learning that actually works.
           </p>

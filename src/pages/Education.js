@@ -32,7 +32,7 @@ function Education() {
       }
     },
     {
-      degree: "Bachelor of Education (Early Childhood Education)",
+      degree: "Bachelor of Education (Education)",
       institution: "University of Education, Winneba, Ghana",
       period: "2014–2018",
       highlights: [
