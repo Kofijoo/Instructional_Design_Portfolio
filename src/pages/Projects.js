@@ -121,19 +121,6 @@ function Projects() {
         "Built with Python, Streamlit, and Power BI concepts",
         "Deployed as a live app — viewable by anyone without setup"
       ]
-    },
-    {
-      title: "Phonics Learning Content — First Talk Education",
-      organization: "First Talk Education",
-      period: "Mar 2021 – Apr 2022",
-      description:
-        "As part of an ESL teaching role, designed and built digital learning content supporting the Jolly Phonics methodology. Created an interactive HTML/CSS/JavaScript game to reinforce phonics skills — deployable inside the school's LMS.",
-      highlights: [
-        "Interactive 6-level phonics game in HTML/CSS/JavaScript",
-        "Runs inside LMS or as a standalone web app",
-        "Designed for young learners — simple navigation, clear feedback",
-        "Supplemented classroom instruction with self-paced digital practice"
-      ]
     }
   ];
 

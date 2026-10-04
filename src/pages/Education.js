@@ -16,12 +16,11 @@ function Education() {
       link: "https://app.vitnemalsportalen.no/vp/shared/CB4FE2E65C384FFD9D37D41C780F362A"
     },
     {
-      degree: "Master of Science (Educational Technology)",
+      degree: "Master of Education (Educational Technology)",
       institution: "Huzhou University, China",
       period: "2019–2022",
       highlights: [
         "Thesis: A Comparative Study on STEAM Education Between China and Ghana: A Case Study of Zhejiang Province and Accra Metropolis",
-        "Zhejiang Provincial Scholarship Type A recipient",
         "Focus areas: digital learning design, LMS administration, content development, and educational research",
         "Published three peer-reviewed articles on STEAM education, classroom management, and science pedagogy during this period"
       ],
@@ -33,13 +32,11 @@ function Education() {
       }
     },
     {
-      degree: "Bachelor of Science (Educational Technology)",
+      degree: "Bachelor of Education (Early Childhood Education)",
       institution: "University of Education, Winneba, Ghana",
       period: "2014–2018",
-      grade: "First Class Honours, GPA 3.69",
       highlights: [
         "Thesis: Using Manipulative Tools to Aid Primary 2 Pupils of Osubonpanyin/Ateitu Municipal Assembly School at Winneba in Overcoming the Problem of Adding Two-Digit Numbers",
-        "Dean's Award of Excellence (2015)",
         "Foundation in instructional design principles, learning facilitation, and educational research methods"
       ],
       recognition: {
