@@ -121,7 +121,7 @@ function Projects() {
         "Built with Python, Streamlit, and Power BI concepts",
         "Deployed as a live app — viewable by anyone without setup"
       ]
-    },
+    }
   ];
 
   return (
