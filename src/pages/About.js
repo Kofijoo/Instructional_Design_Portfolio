@@ -18,9 +18,9 @@ function About() {
 
           <p className="bio">
             I design learning experiences that are interactive, standards-compliant, and built to last.
-            With a First Class BSc and two Master's degrees in Educational Technology and International
-            Relations, I bring both the theoretical grounding and the practical toolkit to create learning
-            that actually works.
+            With a B.Ed. in Early Childhood Education and two Master's degrees — in Educational Technology
+            and International Relations — I bring both the theoretical grounding and the practical toolkit
+            to create learning that actually works.
           </p>
 
           <p className="bio">
@@ -36,13 +36,6 @@ function About() {
             tracking. Quest of the Sky Coders is an AI-adaptive platform for young learners.
             EduAnalytics Pro uses machine learning to surface predictive insights from course data.
             These are deployed, working projects.
-          </p>
-
-          <p className="bio">
-            I am based in Oslo with a permanent Norwegian residence permit and work authorization
-            across the EEA. I am fluent in English, proficient in Norwegian at B1 level with a
-            Norskbevis certificate, and certified in Mandarin at HSK 3 level, an asset when working
-            in multilingual or international teams.
           </p>
 
           <div className="social-links">

@@ -2,52 +2,24 @@ import React from 'react';
 import AnimatedBackground from '../components/AnimatedBackground';
 
 function Experience() {
-  const alignmentHighlights = [
-    {
-      title: "Learner-centered design",
-      description:
-        "I design with the learner's context in mind — clear language, accessible structure, and content that respects different backgrounds, roles, and learning needs."
-    },
-    {
-      title: "Interactive content development",
-      description:
-        "I build SCORM-compliant courses, educational games, and LMS-integrated experiences using Articulate Storyline, Adobe Captivate, and custom HTML5/JavaScript."
-    },
-    {
-      title: "Change enablement",
-      description:
-        "I create learning interventions that help people adopt new tools, processes, and ways of working — reducing confusion and building confidence during transitions."
-    },
-    {
-      title: "Data-informed improvement",
-      description:
-        "I use xAPI tracking, LMS analytics, and tools like Power BI to measure what's working and iterate. Learning that can't be measured can't be improved."
-    },
-    {
-      title: "Cross-cultural facilitation",
-      description:
-        "I've designed and delivered learning across Ghana, China, and Norway. I adapt tone, format, and context for different audiences — including multilingual and international teams."
-    }
-  ];
-
   const experiences = [
-{
-  title: "Substitute Kindergarten Assistant (Assistent)",
-  company: "Brobyggere",
-  period: "Jun 2025 – Mar 2026",
-  location: "Oslo, Norway · On-site",
-  description:
-    "Supported children aged 0–6 with daily routines, play-based learning, care, and outdoor activities in a Norwegian barnehage setting. Worked in a fully Norwegian-language team alongside qualified pedagogues, serving families from diverse cultural backgrounds. Applied Assistentprøven training in a live practice environment.",
-  skills: [
-    "Norwegian language (professional context)",
-    "Play-based learning",
-    "Child development support",
-    "Cross-cultural communication",
-    "Team collaboration",
-    "Inclusive practice"
-  ]
-},
-{
+    {
+      title: "Substitute Kindergarten Assistant (Assistent)",
+      company: "Brobyggere",
+      period: "Jun–Dec 2025",
+      location: "Oslo, Norway · On-site",
+      description:
+        "Supported children aged 0–6 with daily routines, play-based learning, care, and outdoor activities in a Norwegian barnehage setting. Worked in a fully Norwegian-language team alongside qualified pedagogues, serving families from diverse cultural backgrounds. Applied Assistentprøven training in a live practice environment.",
+      skills: [
+        "Norwegian language (professional context)",
+        "Play-based learning",
+        "Child development support",
+        "Cross-cultural communication",
+        "Team collaboration",
+        "Inclusive practice"
+      ]
+    },
+    {
       title: "Grocery Associate",
       company: "Wolt",
       period: "Jul 2024 – Present",
@@ -64,60 +36,44 @@ function Experience() {
       ]
     },
     {
-      title: "ESL Teacher & Digital Content Developer",
-      company: "First Talk Education",
-      period: "Mar 2021 – Apr 2022",
-      location: "Changxing County, Zhejiang, China · Hybrid",
+      title: "General Secretary (Elected)",
+      company: "National Service Personnel Association (NASPA), Ga South",
+      period: "2018–2019",
+      location: "Ga South, Ghana · On-site",
       description:
-        "Delivered English language instruction using the Jolly Phonics methodology and designed supporting digital learning content for young learners. Built an interactive 6-level educational game in HTML/CSS/JavaScript that ran on both open web and inside LMS platforms.",
+        "Elected General Secretary during Ghana's mandatory National Service year post-graduation. Coordinated professional development activities and individual follow-up for national service personnel across public and private sector placements. Managed documentation and stakeholder communication across multiple government bodies and institutions.",
       skills: [
-        "Content development",
-        "Learner engagement",
-        "HTML/CSS/JavaScript",
-        "LMS integration",
-        "Phonics-based instruction",
-        "Learning materials design"
+        "Stakeholder coordination",
+        "Documentation",
+        "Communication",
+        "Organisation",
+        "Leadership",
+        "Independent initiative"
       ]
     },
     {
-      title: "ESL Teacher & STEM Learning Contributor",
-      company: "Alo7",
-      period: "Jan 2020 – Feb 2021",
-      location: "Ningbo, Zhejiang, China · Hybrid",
-      description:
-        "Delivered live online English and STEM lessons via virtual classroom platforms to young learners. Contributed to the development of interactive STEM learning modules and the Little Explorers educational platform alongside the instructional design team.",
-      skills: [
-        "Live online facilitation",
-        "STEM learning design",
-        "Virtual classroom platforms",
-        "Interactive content",
-        "Digital learning",
-        "Learner-centered delivery"
-      ]
-    },
-    {
-      title: "Visual Arts Tutor",
+      title: "Primary School Teacher",
       company: "Brainhill International School",
-      period: "Aug 2018 – Oct 2019",
-      location: "East Legon, Accra, Ghana · On-site",
+      period: "Apr 2017 – Mar 2019",
+      location: "Accra, Ghana · On-site",
       description:
-        "Taught creative design principles and visual arts to primary pupils through project-based learning. Developed lesson plans that integrated art fundamentals with digital design concepts. Awarded Best Teacher (Q2 2019).",
+        "Taught primary school pupils, initially part-time during university academic holidays and then as a full-time position following graduation. Designed and delivered lessons across subjects, managed the classroom, and adapted teaching approaches to different learning needs and backgrounds.",
       skills: [
-        "Facilitation",
-        "Project-based learning",
+        "Classroom management",
         "Lesson planning",
-        "Creative instruction",
         "Learner engagement",
-        "Visual communication"
+        "Differentiated instruction",
+        "Communication",
+        "Team collaboration"
       ]
     },
     {
       title: "Instructional Support Specialist",
       company: "Kaneshie Awudome JHS",
-      period: "Sep 2018 – Oct 2019",
+      period: "Sep 2018 – Aug 2019",
       location: "Accra, Ghana · On-site",
       description:
-        "Supported classroom instruction and learning design activities. Assisted in developing visual learning materials and managing educational resources to improve learner engagement and lesson clarity.",
+        "Supported classroom instruction and learning design activities during Ghana's National Service year. Assisted in developing visual learning materials and managing educational resources to improve learner engagement and lesson clarity.",
       skills: [
         "Learning support",
         "Resource development",
@@ -133,10 +89,9 @@ function Experience() {
       period: "Oct 2013 – Nov 2014",
       location: "Accra, Ghana · On-site",
       description:
-        "Facilitated STEM learning for primary students using creative and visual teaching approaches. Designed activities that combined mathematical concepts with artistic expression to build engagement and confidence.",
+        "Facilitated learning for primary students using creative and visual teaching approaches. Designed activities that combined conceptual learning with practical engagement to build confidence and motivation.",
       skills: [
         "Facilitation",
-        "STEM learning activities",
         "Creative instruction",
         "Learner motivation",
         "Inclusive approach",
@@ -151,26 +106,10 @@ function Experience() {
       <div className="page-container">
         <h1 className="page-title">Experience</h1>
         <p className="page-intro">
-          Roles spanning instructional design, digital content development, and learning facilitation across
-          Ghana, China, and Norway — with a consistent focus on learner engagement and practical outcomes.
+          Roles spanning teaching, instructional design, digital content development, and learning
+          facilitation across Ghana and Norway — with a consistent focus on learner engagement
+          and practical outcomes.
         </p>
-
-        <div className="section-block">
-          <h2 className="section-divider">What I bring to L&D roles</h2>
-          <p className="page-intro" style={{ marginTop: 0 }}>
-            The themes below reflect where I do my best work — learner-centered design, interactive content,
-            change enablement, analytics-driven improvement, and cross-cultural facilitation.
-          </p>
-
-          <div className="projects-grid">
-            {alignmentHighlights.map((item, idx) => (
-              <div key={idx} className="project-card">
-                <h2>{item.title}</h2>
-                <p className="project-description">{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
 
         <div className="timeline">
           {experiences.map((exp, index) => (
